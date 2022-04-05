@@ -3,9 +3,9 @@ import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <header className="App-header">
-        <h1 className="text-center">Dictionary</h1>
+        <h1>Dictionary</h1>
         <Dictionary />
       </header>
       <footer className="App-footer">Coded by Iva Papcunova</footer>

@@ -5,20 +5,19 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
-  let [results, setResults] = useState({});
+  let [results, setResults] = useState(null);
 
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
+  //documentation: https://dictionaryapi.dev/
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions[0].definition);
+    console.log(response.data[0]);
     setResults(response.data[0]);
   }
-
-  //documentation: https://dictionaryapi.dev/
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);

@@ -1,3 +1,7 @@
 .Dictionary {
-  text-align: center;
+  text-align: left;
+}
+
+.Dictionary form {
+  padding: 30px 0;
 }
