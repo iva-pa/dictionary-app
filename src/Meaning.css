@@ -1,0 +1,10 @@
+.Meaning h4 {
+  color: var(--primary-color);
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Meaning .example {
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 3px;
+}
