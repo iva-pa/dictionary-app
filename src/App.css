@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #142d4c;
+  --secondary-color: #385170;
+  --background-color: #ececec;
+  --third-color: #9fd3c7;
+}
+
 .App-header {
   margin: 30px 0;
 }
@@ -9,6 +16,7 @@
 .App h1 {
   font-size: 40px;
   font-weight: bold;
+  color: var(--primary-color);
 }
 
 body {
