@@ -9,7 +9,7 @@ export default function Phonetic(props) {
         href={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
-        className="btn btn-light mb-2"
+        className="btn mb-2"
       >
         ▶
       </a>

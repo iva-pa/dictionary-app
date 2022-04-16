@@ -1,4 +1,4 @@
-.Phonetic .btn-light {
+.Phonetic .btn {
   border-radius: 20px;
   border: 1px solid var(--secondary-color);
   color: var(--primary-color);
@@ -6,7 +6,7 @@
   margin-left: 8px;
   font-size: 14px;
 }
-.Phonetic .btn-light:hover {
+.Phonetic .btn:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
