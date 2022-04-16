@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #142d4c;
-  --secondary-color: #385170;
-  --background-color: #ececec;
-  --third-color: #9fd3c7;
+  --primary-color: #2f1b41;
+  --secondary-color: #e3e3e3;
+  --background-color: ##f2f2f2;
+  --third-color: #fecd51;
 }
 .App {
-  max-width: 960px;
+  max-width: 680px;
   margin: 0 auto;
 }
 .App-header {
@@ -13,7 +13,6 @@
 }
 .App-footer {
   text-align: left;
-  margin: 30px 0;
   font-size: 14px;
 }
 .App h1 {
@@ -21,7 +20,9 @@
   font-weight: bold;
   color: var(--primary-color);
 }
-
+.App .link {
+  color: var(--primary-color);
+}
 body {
   font-family: "Poppins", sans-serif;
 }
